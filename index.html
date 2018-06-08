@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/player.css">
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="vendors/js/mediaelement-and-player.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Получите <span class="gold">бесплатную</span> консультацию технолога</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Получить консультацию</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup="popup_2">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Узнайте <span class="gold">стоимость</span> выбранного эффекта прямо сейчас</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Узнать стоимость</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_3">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Мы вам перезвоним</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Перезвоните мне</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_4">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Оставьте заявку и получите <span class="gold">бесплатные</span> образцы штукатурки</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Получить образцы</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<!-- Header -->
+
+	<header>
+
+		<div class="header">			
+			<div class="header-row header-row-1">
+				<div class="row offset-ziro">
+					<div class="col col-1">
+						<a class="logo" href="#">
+							<div class="img_wrapp">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<p>Декоративная штукатурка из Италии<br /> с безграничными возможностями</p>
+						</a>
+					</div>
+					<div class="col col-2">
+						<div class="contact_wrapp">
+							<div class="col col-1">
+								<i class="map-marker"></i>
+							</div>
+							<div class="col col-2">
+								<p>Наш адрес: Москва,<br /> Дмитровское шоссе, 100, стр. 2</p>
+							</div>
+						</div>
+					</div>
+					<div class="col col-3">
+						<a class="header-link" href="mail:info@batega.ru">info@batega.ru</a>
+					</div>
+					<div class="col col-4">
+						<p><a class="tel-link" href="tel:+7495685‑46-55">+7 495 685‑46-55</a></p>
+						<p><a class="callbak-link header-link show_popup" href="#" data-popup-name ="popup_3"><i class="callbak"></i><span>Заказать звонок</span></a></p>
+					</div>
+					<div class="col col-5">
+						<button class="respmenubtn">	
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-row header-row-2">
+				<div class="row">
+					<div class="main-nav_wrapp">
+						<ul class="main-nav offset-ziro scroll">
+							<li><a href="#obraztsi">Подобрать образцы</a></li>
+							<li><a href="#catalog">Каталог</a></li>
+							<li><a href="#gallery">Галерея</a></li>
+							<li><a href="#testimonials">Отзывы</a></li>
+							<li><a href="#workscheme">Схема работы</a></li>
+							<li><a href="#team">Команда</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 -->
+
+				<section class="promo promo_box">
+
+					<img class="promo_bg" src="img/promo_bg.png" alt="" />
+					
+					<div class="row">
+
+						<div class="promo-content leftSlice">
+						
+							<h1>Декоративные полы для любых помещений с повышенным уровнем прочности</h1>
+
+							<p>Напольные покрытия из Италии для домов и общественных помещений с 1500 оттенками и большим разнообразием текстур и эффектов</p>
+
+							<p class="bold">Реализуем любые ваши идеи!</p>
+
+							<a href="#" class="green-pill show_popup" data-popup-name = "popup_4">Получить образцы</a>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 -->
+
+				<!-- Section 2 -->
+
+				<section class="section-2">
+					
+					<div class="row">
+
+						<h2>Наши партнеры</h2>
+
+						<div class="thumbnails_wrapp">
+							<div class="thumbnails-1 offset-ziro fadeInUp">
+								<div class="thumb-1">
+									<a href="#" class="inner">
+										<img src="img/partner_01.png" alt="" />
+									</a>
+								</div>
+								<div class="thumb-1">
+									<a href="#" class="inner">
+										<img src="img/partner_02.png" alt="" />
+									</a>
+								</div>
+								<div class="thumb-1">
+									<a href="#" class="inner">
+										<img src="img/partner_03.png" alt="" />
+									</a>
+								</div>
+								<div class="thumb-1">
+									<a href="#" class="inner">
+										<img src="img/partner_04.png" alt="" />
+									</a>
+								</div>
+								<div class="thumb-1">
+									<a href="#" class="inner">
+										<img src="img/partner_05.png" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 2 -->
+
+				<!-- Section 3 -->
+
+				<section class="section-3 grey-bg">
+					
+					<div class="row">
+
+						<h2>Наши услуги</h2>
+
+						<div class="thumbnails_wrapp">
+							<div class="thumbnails-2 offset-ziro">
+								<div class="thumb-2">
+									<div class="icon-box zoomFade">
+										<img src="img/icon_01.png" alt="" />
+									</div>
+									<p class="p-1">Подбор нужного эффекта</p>
+									<p>Из более 250 видов итальянской декоративной штукатурки и краски для ваших стен, пола и потолков</p>
+								</div>
+								<div class="thumb-2">
+									<div class="icon-box zoomFade">
+										<img class="icon-2" src="img/tiles.svg" alt="" />
+									</div>
+									<p class="p-1">Подготовка пола</p>
+									<p>Идеальное выравнивание пола для последующего покрытия штукатуркой</p>
+								</div>
+								<div class="thumb-2">
+									<div class="icon-box zoomFade">
+										<img src="img/trowel.svg" alt="" />
+									</div>
+									<p class="p-1">Услуги по нанесению</p>
+									<p>От мастеров с опытом работы более 5 лет. Проект курирует технический специалист</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 3 -->
+
+				<!-- Section 4 -->
+
+				<section>
+					<div class="row">
+						<div class="articles-2_wrapp">
+							<div class="article-2 clearfix">
+								<div class="right">
+									<div class="slider-2_wrapp">
+										<div class="slider-2-big">
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_04.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_01.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_06.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+										</div>
+										<div class="slider-2-miniatures">
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_04.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_07.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_06.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="left">
+									<div class="article-2_title">
+										<div class="inner">
+											<h3>Декоративные полы для дома - <span class="light">натуральная линия</span></h3>
+										</div>
+									</div>
+									<h3>Сфера применения:</h3>
+									<p>квартиры, частные дома, танхаусы, влажные помещения</p>
+									<p>Современное решение в напольных системах для оформления домашнего интерьера. Вы получаете идеально ровный пол, готовый к любым нагрузкам. Более 1500 оттенков - воплотите ваши идеи в реальность!</p>
+									<h3>Технические характеристики:</h3>
+									<ol class="list-2">
+										<li>Толщина 3-4 мм</li>
+										<li>Изготовлен из естественной гидравлической извести</li>
+										<li>Ручная работа</li>
+										<li>Большой выбор узоров и цветов</li>
+										<li>Возможность применения на менее прочном основании, керамической плитке, стенах</li>
+										<li>Простой в уходе и очистке</li>
+										<li>Широкая гамма цветов - 1500 оттенков</li>
+										<li>Возможна укладка на теплый пол или старую плитку</li>
+									</ol>
+								</div>
+							</div>
+							<div class="article-2 clearfix">
+								<div class="right">
+									<div class="slider-2_wrapp">
+										<div class="slider-2-big">
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_04.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_01.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_06.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+										</div>
+										<div class="slider-2-miniatures">
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_04.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_07.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_06.jpg" alt="" />
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<img src="img/sliders/img_03.jpg" alt="" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="left">
+									<div class="article-2_title">
+										<div class="inner">
+											<h3>Полы для общественных помещений - <span class="light">укрепленная линия</span></h3>
+										</div>
+									</div>
+									<h3>Сфера применения:</h3>
+									<p>магазины, салоны, кафе, рестораны, гостиницы, музеи, ТЦ, офисы</p>
+									<p>Усиленная линия декоратвных полов с повышенной прочностью для высоких нагрузок. Получает прочность в результате добавления эпоксидной смолы. Любые узоры и эффекты, более 1500 оттенков - реализуем даже самые сложные идеи!</p>
+									<h3>Технические характеристики:</h3>
+									<ol class="list-2">
+										<li>Высочайшая стойкость к истиранию</li>
+										<li>Долговечность - более 50 лет</li>
+										<li>Простой в уходе и очистке</li>
+										<li>Зеркальный блеск и гладкость</li>
+										<li>Декоративные полированные полы</li>
+										<li>Широкая гамма цветов - более 1500 оттенков</li>
+										<li>Очень высокая химическая и механичексая стойкость</li>
+										<li>Возможна укладка на теплый пол или старую плитку</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- /Section 4 -->
+
+				<!-- Section 5 -->
+
+				<section class="section-5 light sect_bg" id="obraztsi">
+					<div class="row">
+						<h2 class="h2_2">Бесплатно подберем материал и сделаем образцы под ваш интерьер</h2>
+						<div class="form_wrapp form_wrapp_2 fadeIn">
+							<form>
+								<div class="form_inner">
+									<div class="form-tree-cols clearfix">
+										<div class="col-1 left">
+											<div class="two-cols clearfix">
+												<div class="left">
+													<div class="input_wrapp">
+														<input type="email" name="name" placeholder="Укажите ваш e-mail">
+													</div>
+												</div>
+												<div class="left">
+													<div class="input_wrapp">
+														<input type="tel" name="name" placeholder="Укажите номер телефона">
+													</div>
+												</div>
+											</div>
+											<p class="p-desc">Я согласен с <a href="#">политикой обработки персональных данных</a></p>
+										</div>
+										<div class="col-2 right">
+											<button type="submit" class="green-pill">Получить образцы</button>
+											<p>или позвоните нам <a href="tel:+7495685‑4655">+7 495 685‑46-55</a></p>
+										</div>
+									</div>										
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+
+				<!-- /Section 5 -->
+
+				<!-- Section 6 -->
+
+				<section id="catalog">
+					
+					<div class="row row_2">
+
+						<h2>Каталог основных эффектов и цветов</h2>
+
+						<div class="tabs">
+							<div class="thumbnails_wrapp">
+								<div class="tab-nav" data-tabs-nav = "tabs_1">
+									<button type="button" data-tab-index = "0" class="tab-link active">Для интерьера</button>
+									<button type="button" data-tab-index = "1" class="tab-link">Фасадная</button>
+									<button type="button" data-tab-index = "2" class="tab-link">Для пола</button>
+									<button type="button" data-tab-index = "3" class="tab-link">Для ванных комнат</button>
+								</div>
+							</div>
+							<div class="slide-desc_append" data-tabs-desc = "tabs_1"></div>
+							<div class="tabs-content fadeIn" data-tabs = "tabs_1">
+								<div class="tab" data-tab = "1">
+									<div class="slide-desc">
+										<p>Небольшое краткое описание для понимания что входит в данную категорию</p>
+									</div>
+									<div class="tabs-content_inner">
+										<div class="thumbnails_wrapp">
+											<div class="thumbnails_3 offset-ziro">
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab" data-tab = "2">
+									<p class="slide-desc">Небольшое краткое описание для понимания что входит в данную категорию 2</p>
+									<div class="tabs-content_inner">
+										<div class="thumbnails_wrapp">
+											<div class="thumbnails_3 offset-ziro">
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab" data-tab = "3">
+									<p class="slide-desc">Небольшое краткое описание для понимания что входит в данную категорию 3</p>
+									<div class="tabs-content_inner">
+										<div class="thumbnails_wrapp">
+											<div class="thumbnails_3 offset-ziro">
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab" data-tab = "4">
+									<p class="slide-desc">Небольшое краткое описание для понимания что входит в данную категорию 4</p>
+									<div class="tabs-content_inner">
+										<div class="thumbnails_wrapp">
+											<div class="thumbnails_3 offset-ziro">
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_01.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_01.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_02.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень 2">
+														<div class="img-box">
+															<img src="img/texture_02.jpg" alt=""/>
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_03.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_03.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+												<div class="thumb_3">
+													<a href="img/texture_04.jpg" class="inner" data-fancybox = "1" data-caption="Под Тибурский камень">
+														<div class="img-box">
+															<img src="img/texture_04.jpg" alt="" />
+														</div>
+														<div class="mask">
+															<p>Эффект бетона</p>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-footer offset-ziro">
+							<div class="col col-1">
+								<h3>Нашли нужный эффект? Узнайте стоимость <span class="gold">прямо сейчас!</span></h3>
+							</div>
+							<div class="col col-2">
+								<a href="#" class="green-pill show_popup" data-popup-name = "popup_2">Узнать стоимость</a>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 6 -->
+
+				<!-- Section 7 -->
+
+				<section class="section-7 grey-bg">
+
+					<div class="row">
+
+						<h2>Вы проектировщик? Станьте нашим партнером!</h2>
+
+						<div class="article-two-cols clearfix">
+							<div class="col-1 left fadeIn">
+								<div class="article-photo">
+									<img src="img/photo.jpg" alt="" />
+								</div>
+							</div>
+							<div class="col-2 right">
+								<ol>
+									<li>Бесплатный выезд специалиста</li>
+									<li>Подбор пола под вашу визуализаци</li>
+									<li>Бесплатные образцы</li>
+									<li>Агентское вознаграждение</li>
+								</ol>
+								<p>Узнайте больше о выгодных условиях работы с нами!</p>
+								<a href="#" class="green-pill">Узнать условия</a>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 7 -->
+
+				<!-- Section 8 -->
+
+				<section class="section-8" id="gallery">
+					
+					<h2>Галерея выполненных проектов</h2>
+
+					<div class="gallery-slider_wrapp">
+
+						<div class="gallery-slider">
+							<div class="slide">
+								<div class="photo-box">							
+									<img src="img/photo_01.jpg" alt="" />
+								</div>
+							</div>
+							<div class="slide">
+								<div class="photo-box">							
+									<img src="img/photo_01.jpg" alt="" />
+								</div>
+							</div>
+							<div class="slide">
+								<div class="photo-box">							
+									<img src="img/photo_01.jpg" alt="" />
+								</div>
+							</div>
+							<div class="slide">
+								<div class="photo-box">							
+									<img src="img/photo_01.jpg" alt="" />
+								</div>
+							</div>
+							<div class="slide">
+								<div class="photo-box">							
+									<img src="img/photo_01.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 8 -->
+
+				<!-- Section 9 -->
+
+				<section class="section-9 grey-bg" id="testimonials">
+
+					<div class="row">
+
+						<h2>Отзывы о нашей работе</h2>
+
+						<div class="testimonial-slider_wrapp">
+							<div class="testimonials-arrows"></div>
+							<div class="testimonial-slider">
+								<div class="slide">
+									<div class="testimonial">
+										<div class="col col-1">
+											<div class="img-box">
+												<img src="img/avatar.jpg" alt="" />
+											</div>
+										</div>
+										<div class="col col-2">
+											<h3>Александр Степаненко, бутик «CRAFT»</h3>
+											<p>Здравствуйте! Мы благодарим вашу компанию за великолепное оформление нашего магазина дизайнерской штукатуркой! Декорирование стен штукатуркой - идеальное решение для нашего помещения и вы замечательно справились с поставленной задачей! Спасибо вам огромное за такое великолепие!</p>
+											<div class="media-wrapper">
+								                <audio preload="none" controls">
+								                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+								                </audio>
+								            </div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testimonial">
+										<div class="col col-1">
+											<div class="img-box">
+												<img src="img/avatar.jpg" alt="" />
+											</div>
+										</div>
+										<div class="col col-2">
+											<h3>Александр Степаненко, бутик «CRAFT» 2</h3>
+											<p>Здравствуйте! Мы благодарим вашу компанию за великолепное оформление нашего магазина дизайнерской штукатуркой! Декорирование стен штукатуркой - идеальное решение для нашего помещения и вы замечательно справились с поставленной задачей! Спасибо вам огромное за такое великолепие!</p>
+											<div class="media-wrapper">
+								                <audio preload="none" controls">
+								                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+								                </audio>
+								            </div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testimonial">
+										<div class="col col-1">
+											<div class="img-box">
+												<img src="img/avatar.jpg" alt="" />
+											</div>
+										</div>
+										<div class="col col-2">
+											<h3>Александр Степаненко, бутик «CRAFT» 3</h3>
+											<p>Здравствуйте! Мы благодарим вашу компанию за великолепное оформление нашего магазина дизайнерской штукатуркой! Декорирование стен штукатуркой - идеальное решение для нашего помещения и вы замечательно справились с поставленной задачей! Спасибо вам огромное за такое великолепие!</p>
+											<div class="media-wrapper">
+								                <audio preload="none" controls">
+								                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+								                </audio>
+								            </div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testimonial">
+										<div class="col col-1">
+											<div class="img-box">
+												<img src="img/avatar.jpg" alt="" />
+											</div>
+										</div>
+										<div class="col col-2">
+											<h3>Александр Степаненко, бутик «CRAFT» 4</h3>
+											<p>Здравствуйте! Мы благодарим вашу компанию за великолепное оформление нашего магазина дизайнерской штукатуркой! Декорирование стен штукатуркой - идеальное решение для нашего помещения и вы замечательно справились с поставленной задачей! Спасибо вам огромное за такое великолепие!</p>
+											<div class="media-wrapper">
+								                <audio preload="none" controls">
+								                    <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+								                </audio>
+								            </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 9 -->				
+
+				<!-- Section 10 -->
+
+				<section class="section-10" id="workscheme">
+
+					<div class="row">
+
+						<h2>Гарантируем оперативную работу</h2>
+						<p class="h-desc h-desc_2">над вашим проектом</p>
+
+						<div class="thumbnails_wrapp">
+							
+							<div class="thumbnails_4 clearfix">
+								
+								<div class="thumb_4">
+									<div class="col col-1 fadeIn">
+										<p>1</p>
+									</div>
+									<div class="col col-2">
+										<p><a href="#" class="dash-link show_popup" data-popup-name="popup_1" >Консультация с технологом</a>, подбор нужных образцов и эффектов</p>
+									</div>
+								</div>
+								<div class="thumb_4">
+									<div class="col col-1 fadeIn">
+										<p>2</p>
+									</div>
+									<div class="col col-2">
+										<p>Выезд к вам на проект или приглашение в нашу студию</p>
+									</div>
+								</div>
+								<div class="thumb_4">
+									<div class="col col-1 fadeIn">
+										<p>3</p>
+									</div>
+									<div class="col col-2">
+										<p>Выбор нужного эффекта, согласование стоимости и сроков, предоплата</p>
+									</div>
+								</div>
+								<div class="thumb_4">
+									<div class="col col-1 fadeIn">
+										<p>4</p>
+									</div>
+									<div class="col col-2">
+										<p>Доставка материалов, нанесение или обучение ваших  мастеров при необходимости</p>
+									</div>
+								</div>
+								<div class="thumb_4">
+									<div class="col col-1 fadeIn">
+										<p>5</p>
+									</div>
+									<div class="col col-2">
+										<p>Принимайте материалы, проверяйте работу. Доплата по договору.</p>
+									</div>
+								</div>
+								<div class="thumb_4 single">
+									<p><span class="gold">Достойный результат</span> с нужным эффектом и граммотным нанесением</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 10 -->
+
+				<!-- Section 11 -->
+
+				<section class="section-11 grey-bg">
+
+					<div class="row">
+
+						<div class="article-two-cols article-two-cols_3 clearfix">
+							<div class="col-1 left fadeIn">
+								<div class="article-photo">
+									<img src="img/photo_02.png" alt="" />
+								</div>
+							</div>
+							<div class="col-2 right">
+								<div class="article_title">
+									<h3>Почему клиенты выбирают нас</h3>
+								</div>
+								<ol class="list-3">
+									<li>Мы сотрудничаем с производителем из Италии и создали <b>более 50 эффектов и 1500 оттенков</b></li>
+									<li>Вы получаете профессиональный подбор нужного эфекта и <b>бесплатное создание образцов</b></li>
+									<li>Наши специалисты с опытом не менее 5 лет подготовят пол и произведут все работы <b>на высшем уровне</b></li>
+									<li>Мы выполнили <b>более 1000 проектов</b> по Москве и области и гарантируем вам качество и точность сроков!</li>
+								</ol>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 11 -->
+
+				<!-- Section 12 -->
+
+				<section class="sect-12">
+
+					<div class="row">
+
+						<h2>Возможности штукатурки Batega безграничны!</h2>
+						<p class="h-desc h-desc_2">Используйте декоративную штукатурку для реализации самых<br /> сложных и интересных дизайнерских идей</p>
+
+						<div class="overflow_hidden">
+							<div class="thumbnails_6 offset-ziro">
+								<a href="#" class="thumb_6">
+									<div class="img-box">
+										<img src="img/img_03.jpg" alt="" />
+									</div>
+									<h3>Для интерьера</h3>
+									<div class="description">
+										<p>Более 200 эффектов экологичной штукатурки из Италии для стен любых помещений</p>
+									</div>
+									<p class="more">Подбробнее здесь</p>
+								</a>
+								<a href="#" class="thumb_6">
+									<div class="img-box">
+										<img src="img/img_01.jpg" alt="" />
+									</div>
+									<h3>Для интерьера</h3>
+									<div class="description">
+										<p>Более 200 эффектов экологичной штукатурки из Италии для стен любых помещений</p>
+									</div>
+									<p class="more">Подбробнее здесь</p>
+								</a>
+								<a href="#" class="thumb_6">
+									<div class="img-box">
+										<img src="img/img_02.jpg" alt="" />
+									</div>
+									<h3>Для интерьера</h3>
+									<div class="description">
+										<p>Более 200 эффектов экологичной штукатурки из Италии для стен любых помещений</p>
+									</div>
+									<p class="more">Подбробнее здесь</p>
+								</a>
+								<a href="#" class="thumb_6">
+									<div class="img-box">
+										<img src="img/img_04.jpg" alt="" />
+									</div>
+									<h3>Для интерьера</h3>
+									<div class="description">
+										<p>Более 200 эффектов экологичной штукатурки из Италии для стен любых помещений</p>
+									</div>
+									<p class="more">Подбробнее здесь</p>
+								</a>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 12 -->
+
+				<!-- Section 13 -->
+
+				<section class="sect-13">
+
+					<div class="row">
+						<div class="article-two-cols_2  clearfix">
+							<div class="thumbnails_5 offset-ziro">
+								<div class="thumb-5">
+									<div class="img-box">
+										<img src="img/texture_01.jpg" alt="" />
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="img-box">
+										<img src="img/texture_02.jpg" alt="" />
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="img-box">
+										<img src="img/texture_03.jpg" alt="" />
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="img-box">
+										<img src="img/texture_04.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="col col-1 right fadeIn">
+								<div class="center-article">
+									<h2><span class="gold">Сэкономьте ваше время!</span></h2>
+									<p class="p-1">Получите бесплатные образцы итальянской штукатурки и расчет сметы</p>
+									<p>Подберем эффект и фактуру штукатурки или краски под ваш интерьер и составим смету в 3х вариантах</p>
+								</div>
+							</div>
+							<div class="col col-2 left">
+								<div class="form_wrapp form_wrapp_3 form_wrapp_3_2 leftSlice">
+									<div class="form_inner">
+										<h3><span class="gold">Бесплатно</span> получите образцы и расчет сметы</h3>
+										<div class="inputs_wrapp">
+											<div class="input_wrapp">
+												<input type="text" name="name" placeholder="Укажите ваше имя">
+											</div>
+											<div class="input_wrapp">
+												<input type="tel" name="name" placeholder="Укажите номер телефона">
+											</div>
+										</div>
+										<button type="submit" class="green-pill">Получить образцы</button>
+										<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<!-- /Section 13 -->
+
+				<!-- Section 14 -->
+
+				<section class="contacts-sect" id="contacts">
+					<div class="map_wrapp">
+						<div class="contacts_wrapp fadeIn">
+							<div class="row offset-ziro">
+								<div class="contacts">
+									<div class="contacts_inner">
+										<div class="contact">
+											<div class="col col-1">
+												<i class="map-marker"></i>
+											</div>
+											<div class="col col-2">
+												<p>Ждем вас в шоу-руме:</p>
+												<p class="p-1">г. Москва, Дмитровское шоссе, 100, стр. 2</p>
+											</div>
+										</div>
+										<div class="contact">
+											<div class="col col-1">
+												<i class="phone"></i>
+											</div>
+											<div class="col col-2">
+												<p>Звоните:</p>
+												<p><a href="tel:+7495685‑4655">+7 495 685‑46-55</a></p>
+												<p><a href="#" class="dash-link show_popup"  data-popup-name ="popup_3">Заказать звонок</a></p>
+											</div>
+										</div>
+										<div class="contact">
+											<div class="col col-1">
+												<i class="letter"></i>
+											</div>
+											<div class="col col-2">
+												<p>Пишите:</p>
+												<p><a href="mailto:info@batega.ru">info@batega.ru</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="map"></div>						
+					</div>
+				</section>
+
+				<!-- /Section 14 -->
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+				<div class="row">
+					<div class="row-1">
+						<div class="col">
+							<a class="logo logo-white" href="#">
+								<div class="img_wrapp">
+									<img src="img/logo_black.png" alt="" />
+								</div>
+								<p>Декоративная штукатурка из Италии<br /> с безграничными возможностями</p>
+							</a>
+						</div>
+						<div class="col">
+							<p><a href="#" class="dash-link">Политика конфиденциальности</a></p>
+						</div>
+					</div>
+					<div class="row-2">
+						<p class="webstudio-p"><span>Разработка и продвижение сайта</span> <a href="http://reforge.ru/" class="reforge"></a></p>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+		<script src="js/map.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGWEyUlxHOSfMgm2TliQLggP3mej7d_I&callback=initMap" async defer></script>
+
+	
+	</div>
+
+</body>
+</html>

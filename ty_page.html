@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/player.css">
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="vendors/js/mediaelement-and-player.js"></script>
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Получите <span class="gold">бесплатную</span> консультацию технолога</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Получить консультацию</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup="popup_2">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Узнайте <span class="gold">стоимость</span> выбранного эффекта прямо сейчас</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Узнать стоимость</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_3">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Мы вам перезвоним</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Перезвоните мне</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_4">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Оставьте заявку и получите <span class="gold">бесплатные</span> образцы штукатурки</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Получить образцы</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<!-- Header -->
+		
+	<header>
+
+		<div class="header header_inner">			
+			<div class="header-row header-row-1">
+				<div class="row offset-ziro">
+					<div class="col col-1">
+						<a class="logo" href="#">
+							<div class="img_wrapp">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<p>Декоративная штукатурка из Италии<br /> с безграничными возможностями</p>
+						</a>
+					</div>
+					<div class="col col-2">
+						<div class="contact_wrapp">
+							<div class="col col-1">
+								<i class="map-marker"></i>
+							</div>
+							<div class="col col-2">
+								<p>Наш адрес: Москва,<br /> Дмитровское шоссе, 100, стр. 2</p>
+							</div>
+						</div>
+					</div>
+					<div class="col col-3">
+						<a class="header-link" href="mail:info@batega.ru">info@batega.ru</a>
+					</div>
+					<div class="col col-4">
+						<p><a class="tel-link" href="tel:+7495685‑46-55">+7 495 685‑46-55</a></p>
+						<p><a class="callbak-link header-link show_popup" href="#" data-popup-name ="popup_3"><i class="callbak"></i><span>Заказать звонок</span></a></p>
+					</div>
+					<div class="col col-5">
+						<button class="respmenubtn">	
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-row header-row-2">
+				<div class="row">
+					<div class="main-nav_wrapp">
+						<ul class="main-nav offset-ziro scroll">
+							<li><a href="#obrazci">Подобрать образцы</a></li>
+							<li><a href="#catalog">Каталог</a></li>
+							<li><a href="#gallery">Галерея</a></li>
+							<li><a href="#testimonials">Отзывы</a></li>
+							<li><a href="#workscheme">Схема работы</a></li>
+							<li><a href="#team">Команда</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 TY - Page -->
+
+				<section class="succes_page promo_box">
+					
+					<div class="row">
+
+						<div class="succes_content leftSlice">
+						
+							<h1>Спасибо за ваше обращение!</h1>
+							<p>Наш менеджер перезвонит вам в ближайшее время для уточнения всех деталей</p>
+							<a href="/" class="green-pill">Вернуться на главную</a>
+
+						</div>
+
+						<img class="succes_img fadeIn" src="img/succes_bg.png" alt="Butega" />
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 TY - Page -->
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+				<div class="row">
+					<div class="row-1">
+						<div class="col">
+							<a class="logo logo-white" href="#">
+								<div class="img_wrapp">
+									<img src="img/logo_black.png" alt="" />
+								</div>
+								<p>Декоративная штукатурка из Италии<br /> с безграничными возможностями</p>
+							</a>
+						</div>
+						<div class="col">
+							<p><a href="#" class="dash-link">Политика конфиденциальности</a></p>
+						</div>
+					</div>
+					<div class="row-2">
+						<p class="webstudio-p"><span>Разработка и продвижение сайта</span> <a href="http://reforge.ru/" class="reforge"></a></p>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+		<script src="js/map.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGWEyUlxHOSfMgm2TliQLggP3mej7d_I&callback=initMap" async defer></script>
+
+	
+	</div>
+
+</body>
+</html>
