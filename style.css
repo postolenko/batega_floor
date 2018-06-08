@@ -2695,7 +2695,7 @@ ol.list-3 li:before {
     height: auto;
     max-height: 98vh;
     position: absolute;
-    top: -16px;
+    top: 27%;
     right: -16%;
 }
 
