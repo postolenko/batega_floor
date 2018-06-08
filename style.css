@@ -1068,16 +1068,24 @@ section.light p {
 
 .promo {
     padding: 181px 0 29px 0;
-/*    background-image: url(img/promo_bg.png);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;*/
     overflow: hidden;
     position: relative;
 }
 
-.promo .promo_bg {
+.promo_bg {
     display: block;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.promo_bg_resp {
+    display: none;
     min-width: 100%;
     min-height: 100%;
     position: absolute;
@@ -1487,37 +1495,6 @@ section.light p {
 
 .form_inner .input_wrapp:last-child {
     margin-bottom: 13px;
-}
-
-.file-upload {
-    text-align: center;
-    position: relative;
-}
-
-.file-upload input {
-    display: block;
-    width: 1px;
-    height: 1px;
-    border: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-
-.file-upload label {
-    cursor: pointer;
-    font-family: "Museo Sans Cyrl", "Arial", "Verdana", sans-serif;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 300;
-    color: #1c1c1c;
-}
-
-.file-upload label .upload_icon {
-    margin-right: 9px;
-    position: relative;
-    top: 8px;
 }
 
 .form_wrapp p.p-desc {
@@ -2338,7 +2315,7 @@ ol.list-3 li:before {
 /*-- Section 12 --*/
 
 .sect-12 {
-    padding: 108px 0 0 0;
+    padding: 108px 0 43px 0;
 }
 
 .thumbnails_6 {
@@ -2354,7 +2331,7 @@ ol.list-3 li:before {
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(248, 248, 248, 0);
+    border-color: rgb(248, 248, 248);
     background-color: rgba(248, 248, 248, 0);
 }
 
@@ -2517,16 +2494,6 @@ ol.list-3 li:before {
     padding-right: 1%;
 }
 
-.form_wrapp_3_2 {
-    margin: 0 0 0 0;
-}
-
-.form_wrapp_3_2 .form_inner {
-    -webkit-box-shadow: 0 0 32px 0 rgba(0, 0, 0, .1);
-    -moz-box-shadow: 0 0 32px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 0 32px 0 rgba(0, 0, 0, .1);
-}
-
 .center-article {
     margin: 110px 0 0 0;
 }
@@ -2653,12 +2620,19 @@ ol.list-3 li:before {
 
 .form_wrapp_3 {
     max-width: 500px;
-    margin: 45px 0 10px 0;
+    margin: 0;
+    text-align: center;
     border: 1px solid #ece1cb;
 }
 
+.form_wrapp_3 .form_inner {
+    -webkit-box-shadow: 0 0 32px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 32px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, .1);
+}
+
 .form_wrapp_3 .green-pill {
-    margin: 15px 0 24px 0;
+    margin: 15px 0 15px 0;
     min-width: 100%;
 }
 
@@ -2943,6 +2917,10 @@ ol.list-3 li:before {
     top: 50%;
 }
 
+.popup .form_wrapp .green-pill {
+    min-width: 100%;
+}
+
 /*-- /Popups --*/
 
 /*-- Animation --*/
@@ -2984,27 +2962,27 @@ section.active .leftSlice {
 
 .fadeIn {
     opacity: 0;
-    -webkit-transition-property: all;
+    -webkit-transition-property: opacity;
     -webkit-transition-duration: 1s;
     -webkit-transition-delay: .4s;
     -webkit-transition-timing-function: ease-in-out;
 
-    -moz-transition-property: all;
+    -moz-transition-property: opacity;
     -moz-transition-duration: 1s;
     -moz-transition-delay: .4s;
     -moz-transition-timing-function: ease-in-out;
 
-    -ms-transition-property: all;
+    -ms-transition-property: opacity;
     -ms-transition-duration: 1s;
     -ms-transition-delay: .4s;
     -ms-transition-timing-function: ease-in-out;
 
-    -o-transition-property: all;
+    -o-transition-property: opacity;
     -o-transition-duration: 1s;
     --transition-delay: .4s;
     -o-transition-timing-function: ease-in-out;
 
-    transition-property: all;
+    transition-property: opacity;
     transition-duration: 1s;
     transition-delay: .4s;
     transition-timing-function: ease-in-out;
@@ -3019,27 +2997,27 @@ section.active .fadeIn {
     -moz-transform: scale(0);
     transform: scale(0);
     opacity: 0;
-    -webkit-transition-property: all;
+    -webkit-transition-property: opacity, transform;
     -webkit-transition-duration: 1s;
     -webkit-transition-delay: .4s;
     -webkit-transition-timing-function: ease-in-out;
 
-    -moz-transition-property: all;
+    -moz-transition-property: opacity, transform;
     -moz-transition-duration: 1s;
     -moz-transition-delay: .4s;
     -moz-transition-timing-function: ease-in-out;
 
-    -ms-transition-property: all;
+    -ms-transition-property: opacity, transform;
     -ms-transition-duration: 1s;
     -ms-transition-delay: .4s;
     -ms-transition-timing-function: ease-in-out;
 
-    -o-transition-property: all;
+    -o-transition-property: opacity, transform;
     -o-transition-duration: 1s;
     --transition-delay: .4s;
     -o-transition-timing-function: ease-in-out;
 
-    transition-property: all;
+    transition-property: opacity, transform;
     transition-duration: 1s;
     transition-delay: .4s;
     transition-timing-function: ease-in-out;
@@ -3056,27 +3034,27 @@ section.active .zoomFade {
     position: relative;
     bottom: -20px;
     opacity: 0;
-    -webkit-transition-property: all;
+    -webkit-transition-property: bottom, opacity;
     -webkit-transition-duration: 1s;
     -webkit-transition-delay: .4s;
     -webkit-transition-timing-function: ease-in-out;
 
-    -moz-transition-property: all;
+    -moz-transition-property: bottom, opacity;
     -moz-transition-duration: 1s;
     -moz-transition-delay: .4s;
     -moz-transition-timing-function: ease-in-out;
 
-    -ms-transition-property: all;
+    -ms-transition-property: bottom, opacity;
     -ms-transition-duration: 1s;
     -ms-transition-delay: .4s;
     -ms-transition-timing-function: ease-in-out;
 
-    -o-transition-property: all;
+    -o-transition-property: bottom, opacity;
     -o-transition-duration: 1s;
     -o-transition-delay: .4s;
     -o-transition-timing-function: ease-in-out;
 
-    transition-property: all;
+    transition-property: bottom, opacity;
     transition-duration: 1s;
     transition-delay: .4s;
     transition-timing-function: ease-in-out;

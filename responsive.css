@@ -1,28 +1,3 @@
-@media only screen and (max-width: 1500px) {
-
-	/*-- Section 1 TY - Page --*/
-
-	.succes_img {
-		right: -12%;
-	}
-
-	/*-- /Section 1 TY - Page --*/
-
-}
-
-@media only screen and (max-width: 1360px) {
-
-	/*-- Section 1 TY - Page --*/
-
-	.succes_img {
-		right: -6%;
-	}
-
-	/*-- /Section 1 TY - Page --*/
-
-}
-
-
 @media only screen and (max-width: 1280px) {
 
 	.row {
