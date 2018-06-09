@@ -444,6 +444,10 @@ textarea:focus {
     float: right;
 }
 
+.overflow_hidden {
+    overflow: hidden;
+}
+
 .align-center {
     text-align: center;
 }
@@ -1537,7 +1541,7 @@ section.light p {
 }
 
 .form_wrapp_2 .form_inner {
-    padding: 14px 5% 34px 5%;
+    padding: 14px 5% 36px 5%;
 }
 
 .form-tree-cols .col-1 {
@@ -1563,6 +1567,9 @@ section.light p {
 }
 
 .form_wrapp_2 .green-pill {
+    min-width: auto;
+    width: 100%;
+    max-width: 285px;
     margin: 25px 0 27px 0;
     padding: 17px 2% 18px 2%;
 }
@@ -1576,6 +1583,16 @@ section.light p {
 
 .form_wrapp_2 p a {
     font-weight: 700;
+}
+
+.two-cols_2 .left {
+    width: 61%;
+}
+
+.two-cols_2 .right {
+    width: 39%;
+    text-align: right;
+    padding-top: 2px;
 }
 
 /*-- /Section 5 --*/
@@ -2919,6 +2936,10 @@ ol.list-3 li:before {
 
 .popup .form_wrapp .green-pill {
     min-width: 100%;
+}
+
+.popup .p-desc {
+    text-align: center;
 }
 
 /*-- /Popups --*/

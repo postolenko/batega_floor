@@ -4,6 +4,8 @@ if( document.getElementById("map") ) {
 	var marker;
 	var image = "img/map_marker.png";
 	var styles;
+	var latCoord;
+	var lngCoord;
 
 	function initMap() {
 
@@ -168,9 +170,22 @@ if( document.getElementById("map") ) {
 		  }
 		]
 
+		if( bodyWidth > 900 ) {
+
+
+			latCoord = 55.882593;
+			lngCoord = 37.5547503;
+
+		} else {
+			
+			latCoord = 55.882593;
+			lngCoord = 37.5477503;
+
+		}
+
 
 		map = new google.maps.Map(document.getElementById('map'), {
-			center: {lat: 55.882593, lng: 37.5547503},
+			center: {lat: latCoord, lng: lngCoord},
 			scrollwheel: false,
 			scaleControl: false,
 			zoom: 16,
