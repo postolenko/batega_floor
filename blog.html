@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/player.css">
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="vendors/js/mediaelement-and-player.js"></script>
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<title>Batega</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Получите <span class="gold">бесплатную</span> консультацию технолога</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Получить консультацию</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup="popup_2">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Узнайте <span class="gold">стоимость</span> выбранного эффекта прямо сейчас</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Узнать стоимость</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_3">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Оставьте заявку<br /> и мы вам перезвоним</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Оставить заявку</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_4">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Оставьте заявку и получите <span class="gold">бесплатные</span> образцы пола</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Получить образцы</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_5">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<div class="form_wrapp">
+				<div class="form_inner">
+					<h3>Оставьте свои данные<br /> и мы вам перезвоним</h3>
+					<div class="inputs_wrapp">
+						<div class="input_wrapp">
+							<input type="text" name="name" placeholder="Укажите ваше имя">
+						</div>
+						<div class="input_wrapp">
+							<input type="tel" name="name" placeholder="Укажите номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="green-pill">Узнать условия</button>
+					<p class="p-desc">Я согласен с политикой обработки <a href="#">персональных данных</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<!-- Header -->
+
+	<header>
+
+		<div class="header">			
+			<div class="header-row header-row-1">
+				<div class="row offset-ziro">
+					<div class="col col-1">
+						<a class="logo" href="#">
+							<div class="img_wrapp">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<p>Декоративная штукатурка из Италии<br /> с безграничными возможностями</p>
+						</a>
+					</div>
+					<div class="col col-2">
+						<div class="contact_wrapp">
+							<div class="col col-1">
+								<i class="map-marker"></i>
+							</div>
+							<div class="col col-2">
+								<p>Наш адрес: Москва,<br /> Дмитровское шоссе, 100, стр. 2</p>
+							</div>
+						</div>
+					</div>
+					<div class="col col-3">
+						<a class="header-link" href="mail:info@batega.ru">info@batega.ru</a>
+					</div>
+					<div class="col col-4">
+						<p><a class="tel-link" href="tel:+7495685‑46-55">+7 495 685‑46-55</a></p>
+						<p><a class="callbak-link header-link show_popup" href="#" data-popup-name ="popup_3"><i class="callbak"></i><span>Заказать звонок</span></a></p>
+					</div>
+					<div class="col col-5">
+						<button class="respmenubtn">	
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-row header-row-2">
+				<div class="row">
+					<div class="main-nav_wrapp">
+						<ul class="main-nav offset-ziro scroll">
+							<li><a href="#obraztsi">Подобрать образцы</a></li>
+							<li><a href="#catalog">Каталог</a></li>
+							<li><a href="#gallery">Галерея</a></li>
+							<li><a href="#testimonials">Отзывы</a></li>
+							<li><a href="#workscheme">Схема работы</a></li>
+							<li><a href="#team">Команда</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 - Blog -->
+
+				<section class="promo promo_blog">
+
+					<div class="row">
+						
+						<h1>Блог</h1>
+
+						<p class="h1-desc">Все что вам нужно, это пригласить нашего мастера на бесплатную консультацию с образцами фактур и сделать свой выбор. Все дальнейшиезаботы мы берём на себя.</p>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 - Blog -->
+
+				<!-- Section 2 - Blog -->
+
+				<section class="sect-2">				
+					
+					<div class="two-cols_templ">
+						<div class="row  clearfix">
+							<div class="left">
+								<div class="categories_wrapp">
+									<h3>Категории:</h3>
+									<div class="categories_nav_wrapp">
+										<ul class="categories_nav">
+											<li class="active"><a href="#">Все</a></li>
+											<li><a href="#">Штукатурка для стен</a></li>
+											<li><a href="#">Штукатурка для пола</a></li>
+											<li><a href="#">Штукатурка для ванных</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="right">
+								<div class="search_wrapp">
+									<form>
+										<input type="text" name="" placeholder="Поиск..." />
+										<button type="submit" class="search_btn"></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="two-cols_templ">
+						<div class="row clearfix">
+							<div class="left">
+								<h3>Новые статьи</h3>
+								<div>
+									<div class="article_3">
+										<div class="img-box">
+											<img src="img/blog_photo.jpg" alt="" />
+										</div>
+										<h3>Виды декоративной штукатурки</h3>
+										<p>Разнообразия текстур огромное множество, начиная от простых фоновых, которые на первый взгляд не будут отличаться от дорогих обоев, заканчивая ярко-выраженными, рельефными и брутальными цветами и формами, которые возьмут на себя главный акцент в помещении.</p>
+										<p class="more-p"><a class="more_link" href="#">Читать полностью</a></p>
+										<div class="article_footer clearfix">
+											<div class="left">
+												<div class="p-blocks">
+													<p>22 май 2018</p>
+													<p class="name">Костюнин Сергей</p>
+												</div>
+											</div>
+											<div class="right">
+												<a href="#" class="dash_link">Все категории</a>
+											</div>
+										</div>
+									</div>
+									<div class="article_3">
+										<div class="img-box">
+											<img src="img/blog_photo.jpg" alt="" />
+										</div>
+										<h3>Виды декоративной штукатурки</h3>
+										<p>Разнообразия текстур огромное множество, начиная от простых фоновых, которые на первый взгляд не будут отличаться от дорогих обоев, заканчивая ярко-выраженными, рельефными и брутальными цветами и формами, которые возьмут на себя главный акцент в помещении.</p>
+										<p class="more-p"><a class="more_link" href="#">Читать полностью</a></p>
+										<div class="article_footer clearfix">
+											<div class="left">
+												<div class="p-blocks">
+													<p>22 май 2018</p>
+													<p class="name">Костюнин Сергей</p>
+												</div>
+											</div>
+											<div class="right">
+												<a href="#" class="dash_link">Все категории</a>
+											</div>
+										</div>
+									</div>
+									<div class="article_3">
+										<div class="img-box">
+											<img src="img/blog_photo.jpg" alt="" />
+										</div>
+										<h3>Виды декоративной штукатурки</h3>
+										<p>Разнообразия текстур огромное множество, начиная от простых фоновых, которые на первый взгляд не будут отличаться от дорогих обоев, заканчивая ярко-выраженными, рельефными и брутальными цветами и формами, которые возьмут на себя главный акцент в помещении.</p>
+										<p class="more-p"><a class="more_link" href="#">Читать полностью</a></p>
+										<div class="article_footer clearfix">
+											<div class="left">
+												<div class="p-blocks">
+													<p>22 май 2018</p>
+													<p class="name">Костюнин Сергей</p>
+												</div>
+											</div>
+											<div class="right">
+												<a href="#" class="dash_link">Все категории</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<ul class="pagination">
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+								</ul>
+							</div>
+							<div class="right">
+								<h3>О нас</h3>
+								<div>
+									<div class="sidebar_sub license">
+										<img class="logo_black" src="img/logo_black_2.png" alt="" />
+										<p>Все штукатурки сертифицированы, паропроницаемы и 100% экологичны. Мы даем пожизненную гарантию на большинство составов, которые исключительно прочны и устойчивы к механическим воздействиям.</p>
+									</div>
+									<div class="sidebar_sub">
+										<div class="form_wrapp form_wrapp_4">
+											<div class="form_inner">
+												<h3>Подпишитесь на наши новости<br /> и узнавайте первым о новинках</h3>
+												<div class="input_wrapp">
+													<input type="text" name="name" placeholder="Укажите ваше имя">
+												</div>
+												<button type="submit" class="green-pill">Подписаться</button>
+												<p class="p-desc">Гарантируем отстутствие СПАМа!</p>
+											</div>
+										</div>
+									</div>
+									<div class="sidebar_sub th7">
+										<div class="thumbnails_7">
+											<h3>Популярные статьи</h3>
+											<div class="thumb-7">
+												<div class="col-1">
+													<div class="img-box">
+														<img src="img/miniature.jpg" alt="" />
+													</div>
+												</div>
+												<div class="col-2">
+													<h3>Виды декоративной штукатурки</h3>
+													<p>22 мая 2018</p>
+													<p><a href="#" class="more_link">Читать полностью</a></p>
+												</div>
+											</div>
+											<div class="thumb-7">
+												<div class="col-1">
+													<div class="img-box">
+														<img src="img/miniature.jpg" alt="" />
+													</div>
+												</div>
+												<div class="col-2">
+													<h3>Виды декоративной штукатурки</h3>
+													<p>22 мая 2018</p>
+													<p><a href="#" class="more_link">Читать полностью</a></p>
+												</div>
+											</div>
+											<div class="thumb-7">
+												<div class="col-1">
+													<div class="img-box">
+														<img src="img/miniature.jpg" alt="" />
+													</div>
+												</div>
+												<div class="col-2">
+													<h3>Виды декоративной штукатурки</h3>
+													<p>22 мая 2018</p>
+													<p><a href="#" class="more_link">Читать полностью</a></p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sidebar_sub instagram">
+										<h3>Присоединяйтесь к нам в Instagram</h3>
+										<img class="instagam_img" src="img/instagram.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<!-- /Section 2 - Blog -->
+
+				<!-- Section 3 - Blog -->
+
+				<section class="sect-3">
+
+					<div class="row">
+						
+						<div class="overflow_hidden">
+							<div class="thumbnails_8 offset-ziro">
+								<div class="thumb-8">
+									<img class="img_bg" src="img/photo_02.jpg" alt="" />
+									<div class="descript">
+										<p>Бесплатно подберем материал<br /> и сделаем образцы под ваш интерьер</p>
+										<a href="#" class="green-pill show_popup" data-popup-name = "popup_4" >Получить образцы</a>
+									</div>
+								</div>
+								<div class="thumb-8">
+									<img class="img_bg" src="img/photo_03.jpg" alt="" />
+									<div class="descript">
+										<p>Вы проектировщик?</p>
+										<p>Узнайте об условиях сотрудничества с нами</p>
+										<a href="#" class="green-pill show_popup" data-popup-name = "popup_5" >Узнать условия</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 3 - Blog -->
+
+				<!-- Section 14 -->
+
+				<section class="contacts-sect" id="contacts">
+					<div class="map_wrapp">
+						<div class="contacts_wrapp fadeIn">
+							<div class="row offset-ziro">
+								<div class="contacts">
+									<div class="contacts_inner">
+										<div class="contact">
+											<div class="col col-1">
+												<i class="map-marker"></i>
+											</div>
+											<div class="col col-2">
+												<p>Ждем вас в шоу-руме:</p>
+												<p class="p-1">г. Москва, Дмитровское шоссе, 100, стр. 2</p>
+											</div>
+										</div>
+										<div class="contact">
+											<div class="col col-1">
+												<i class="phone"></i>
+											</div>
+											<div class="col col-2">
+												<p>Звоните:</p>
+												<p><a href="tel:+7495685‑4655">+7 495 685‑46-55</a></p>
+												<p><a href="#" class="dash-link show_popup"  data-popup-name ="popup_3">Заказать звонок</a></p>
+											</div>
+										</div>
+										<div class="contact">
+											<div class="col col-1">
+												<i class="letter"></i>
+											</div>
+											<div class="col col-2">
+												<p>Пишите:</p>
+												<p><a href="mailto:info@batega.ru">info@batega.ru</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="map"></div>						
+					</div>
+				</section>
+
+				<!-- /Section 14 -->
+
+			</div>
+
+			<!-- /Content -->
+
+			<!-- Footer -->
+
+			<footer>
+
+				<div class="footer">
+					<div class="row">
+						<div class="row-1">
+							<div class="col">
+								<a class="logo logo-white" href="#">
+									<div class="img_wrapp">
+										<img src="img/logo_black.png" alt="" />
+									</div>
+									<p>Декоративная штукатурка из Италии<br /> с безграничными возможностями</p>
+								</a>
+							</div>
+							<div class="col">
+								<p><a href="#" class="dash-link">Политика конфиденциальности</a></p>
+							</div>
+						</div>
+						<div class="row-2">
+							<p class="webstudio-p"><span>Разработка и продвижение сайта</span> <a href="http://reforge.ru/" class="reforge"></a></p>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+
+			<!-- /Footer -->
+
+			<script src="js/scripts.js"></script>
+			<script src="js/additional_scripts.js"></script>
+			<script src="js/map.js"></script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGWEyUlxHOSfMgm2TliQLggP3mej7d_I&callback=initMap" async defer></script>
+
+		</div>
+
+	</body>
+
+</html>
