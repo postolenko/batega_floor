@@ -63,7 +63,6 @@ $(document).ready(function() {
 	$(".tabs-content").not(".slick-initialized").slick({
         dots: true,
         arrows: false,
-        // autoplay: true,
         autoplaySpeed: 10000,
         speed: 800,
         fade: true,
@@ -142,24 +141,21 @@ $(document).ready(function() {
               breakpoint: 900,
               settings: {
                 slidesToShow: 4,
-                slidesToScroll: 2,
-                // centerMode: true
+                slidesToScroll: 2
               }
             },
             {
               breakpoint: 520,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1,
-                // centerMode: true
+                slidesToScroll: 1
               }
             },
             {
               breakpoint: 380,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
-                // centerMode: false
+                slidesToScroll: 1
               }
             }
           ]
