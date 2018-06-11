@@ -94,6 +94,19 @@
 	}
 
 	/*-- /Section 1 TY - Page --*/
+
+	/*-- Section 1 - Blog --*/
+
+	.categories_nav {
+	    margin: 0 -8px;
+	}
+
+	.categories_nav li {
+	    margin: 0 8px;
+	}
+
+	/*-- /Section 1 - Blog --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -235,6 +248,22 @@
 	}
 
 	/*-- /Section 8 --*/
+
+	/*-- Section 1 - Blog --*/
+
+	.two-cols_templ .left {
+	    width: 62%;
+	}
+
+	.two-cols_templ .right {
+	    width: 38%;
+	}
+
+	.categories_wrapp {
+	    margin: 5px 0;
+	}
+
+	/*-- /Section 1 - Blog --*/
 
 }
 
@@ -413,6 +442,33 @@
 	}
 
 	/*-- /Section 14 --*/
+
+	/*-- Section 1 - Blog --*/
+
+	.two-cols_templ .left {
+	    width: 100%;
+	    padding: 14px 0;
+	}
+
+	.two-cols_templ .right {
+	    width: 100%;
+	    padding: 14px 0;
+	}
+
+	/*-- /Section 1 - Blog --*/
+
+	/*-- Section 2 - Blog Article --*/
+
+	.thumbnails_9 {
+	    margin: 0 -2%;
+	}
+
+	.thumb-9 {
+	    width: 46%;
+	    margin: 20px 2%;
+	}
+
+	/*-- /Section 2 - Blog Article --*/
 
 }
 
@@ -701,6 +757,31 @@
 
 	/*-- /Section 1 TY - Page --*/
 
+	/*-- Section 1 - Blog --*/
+
+	.promo_blog {
+	    background-image: url(img/blog_bg_resp.jpg);
+	}
+
+	.article_3 .img-box {
+	    height: 280px;
+	}
+
+	/*-- /Section 1 - Blog --*/
+
+	/*-- Section 3 - Blog --*/
+
+	.thumbnails_8 {
+	    margin: 15px 0 20px 0;
+	}
+
+	.thumb-8 {
+	    width: 100%;
+	    margin: 15px 0;
+	}
+
+	/*-- /Section 3 - Blog --*/
+
 }
 
 @media only screen and (max-width: 660px) {
@@ -776,6 +857,19 @@
 	}
 
 	/*-- /Section 12 --*/
+
+	/*-- Section 2 - Blog Article --*/
+
+	.thumbnails_9 {
+	    margin: 0;
+	}
+
+	.thumb-9 {
+	    width: 100%;
+	    margin: 20px 0;
+	}
+
+	/*-- /Section 2 - Blog Article --*/
 
 }
 
@@ -953,6 +1047,54 @@
 	}
 
 	/*-- /Section 8 --*/
+
+	/*-- Section 1 - Blog --*/
+
+	.categories_nav {
+	    margin: 0;
+	}
+
+	.categories_nav li {
+	    margin: 0;
+	    padding: 2px 0;
+	    width: 100%;
+	}
+
+	.categories_nav li a {
+	    font-size: 15px;
+	    line-height: 15px;
+	}
+
+	.article_footer {
+	    padding: 7px 4%;
+	}
+
+	.article_3 .article_footer .left {
+	    width: 100%;
+	    float: none;
+	    padding: 2px 0;
+	}
+
+	.article_3 .article_footer .right {
+	    width: 100%;
+	    float: none;
+	    padding: 2px 0;
+	    text-align: left;
+	}
+
+	.form_wrapp_4 .form_inner {
+	    padding: 10px 2% 20px 2%;
+	}
+
+	/*-- /Section 1 - Blog --*/
+
+	/*-- Section 14 --*/
+
+	.contacts_inner {
+	    padding: 7px 10px;
+	}
+
+	/*-- /Section 14 --*/
 
 }
 
