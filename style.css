@@ -268,6 +268,13 @@ h2 {
     font-weight: bold;
 }
 
+h2.h2_2 {
+    padding: 14px 0;
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 600;
+}
+
 h3 {
     text-align: center;
     font-family: "Museo Sans Cyrl", "Arial", "Verdana", sans-serif;
@@ -275,6 +282,14 @@ h3 {
     line-height: 31px;
     color: #1c1c1c;
     font-weight: bold;
+}
+
+h4 {
+    font-family: "Museo Sans Cyrl", "Arial", "Verdana", sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1c1c1c;
+    font-weight: 600;
 }
 
 p {
@@ -3233,15 +3248,123 @@ p.name {
     margin: 35px 0 10px 0;
 }
 
-
 /*-- /Section 3 - Blog --*/
 
+/*-- Section 2 - Blog Article --*/
 
+.article_3 ul li {
+    padding: 9px 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+}
 
+.article_3 h4 {
+    padding: 9px 0 7px 0;
+}
 
+.article_3 ol {
+    margin: 8px 0 27px 0;
+}
 
+.article_3 ol li {
+    padding: 6px 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+}
 
+.article_3 ol li:before {
+    display: inline-block;
+    vertical-align: top;
+    background-image: none;
+    width: 5px;
+    height: 5px;
+    margin-right: 6px;
+    position: relative;
+    top: 8px;
+    background-color: #1c1c1c;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
 
+.article_3 .img-box + .img-desc {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.article_3 .img-desc + p {
+    padding-top: 0;
+}
+
+/*-- /Section 2 - Blog Article --*/
+
+/*-- Section 3 - Blog Article --*/
+
+.sect-3_2 {
+    padding: 14px 0 0 0;
+}
+
+.thumbnails_9 {
+    margin: 0 -1.5%;
+}
+
+.thumb-9 {
+    display: inline-block;
+    vertical-align: top;
+    width: 30.33%;
+    margin: 20px 1.5%;
+}
+
+.thumb-9 .img-box {
+    height: 240px;
+    overflow: hidden;
+}
+
+.thumb-9 .img-box img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thumb-9 .descript {
+    padding: 19px 0;
+}
+
+.thumb-9 .descript h3 {
+    padding: 3px 0;
+    text-align: left;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.thumb-9 .descript p {
+    padding: 4px 0;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.thumb-9 .more_link {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+/*-- /Section 3 - Blog Article --*/
 
 
 
