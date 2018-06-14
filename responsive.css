@@ -1014,6 +1014,12 @@
 
 	/*-- Section 6 --*/
 
+	.tab-link {
+	    font-size: 17px;
+	    line-height: 17px;
+	    font-weight: bold;
+	}
+
     .thumbnails_3 .thumb_3 {
 	    margin: 4px;
 	    width: 100px;
