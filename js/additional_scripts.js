@@ -7,6 +7,10 @@ $(window).on("load",function(){
 
 	$(".scroll").mCustomScrollbar();
 
+    // $(".scroll_hr").mCustomScrollbar({
+    //     axis: "x"
+    // });
+
 });
 
 $(document).ready(function() {

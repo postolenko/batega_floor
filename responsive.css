@@ -310,16 +310,39 @@
 
 	/*- Section 4 --*/
 
+	.sect-4 {
+		padding: 0;
+	}
+
+	.articles-2_wrapp {
+	    margin: 0 0 0 0;
+	}
+
+	.article-2 {
+		border-bottom: 1px solid #ededed;
+		padding-bottom: 30px;
+	}
+
+	.article-2:last-child {
+		margin-bottom: 20px;
+		border-bottom: none;
+	}
+
 	.article-2 .left {
 	    width: 100%;
-	    float: left;
-	    padding: 33px 0 0 0;
+	    float: none;
+	    padding: 33px 0;
 	}
 
 	.article-2 .right {
 	    width: 100%;
-	    float: left;
+	    float: none;
 	    padding: 0;
+	}
+
+	.article-2:nth-child(even) .left {
+	    float: right;
+	    padding: 33px 0;
 	}
 
 	.slider-2_wrapp {
@@ -529,19 +552,15 @@
 	}
 
 	.callbak-link {
-		border-bottom: none !important;
+		display: none;
 	}
 
-	.callbak-link .callbak {
+	.tel-link .callbak {
 	    display: inline-block;
 	    vertical-align: top;
 	}
 
-	.callbak-link span {
-		display: none;
-	}
-
-	.header .tel-link {
+	.tel-link span {
 		display: none;
 	}
 

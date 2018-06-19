@@ -908,7 +908,7 @@ section.light p {
     color: #e9ba5f;
 }
 
-.callbak-link .callbak {
+.tel-link .callbak {
     display: none;
 }
 
@@ -1332,7 +1332,7 @@ section.light p {
 
 .article-2:nth-child(even) .left {
     float: right;
-    padding: 33px 2% 0 0;
+    padding: 33px 4% 0 0;
 }
 
 .article-2:nth-child(even) .right {
